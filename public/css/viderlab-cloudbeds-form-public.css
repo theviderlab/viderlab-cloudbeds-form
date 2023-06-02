@@ -1,0 +1,29 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.viderlab-search-room-form,
+.viderlab-search-room-form .viderlab-dates {
+    display: flex;
+}
+
+.viderlab-search-room-form .viderlab-date {
+    padding: 10px;
+}
+
+.viderlab-search-room-form .viderlab-date .viderlab-title {
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.viderlab-search-room-form .viderlab-date .viderlab-datepicker input,
+.viderlab-search-room-form .viderlab-submit input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.viderlab-search-room-form .viderlab-submit {
+    padding: 10px;
+    margin-top: 17px;
+}
