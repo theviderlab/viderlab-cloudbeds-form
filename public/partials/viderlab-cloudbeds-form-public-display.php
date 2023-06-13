@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="viderlab-submit">
-                <input type="submit" name="viderlab-search-room" id="viderlab-search-room" value="<?php _e('Search', 'viderlab-cloudbeds-form'); ?>" />
+                <input type="submit" name="viderlab-search-room" id="viderlab-search-room" value="<?php echo $full_atts['button_text']; ?>" />
             </div>
         </div>
     </form>

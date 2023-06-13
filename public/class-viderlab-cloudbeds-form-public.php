@@ -113,9 +113,12 @@ class ViderLab_Cloudbeds_Form_Public {
         // override default attributes with user attributes
         $full_atts = shortcode_atts(
             array(
-
+				'button_text' => __('Search', 'viderlab-cloudbeds-form'),
             ), $atts, $tag
         );    
+
+		// Sanitize
+		$full_atts['button_text'] = sanitize_text_field($full_atts['button_text']);
 
         $settings = get_option( 'viderlab-cloudbeds-form-settings_options' );
 
