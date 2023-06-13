@@ -105,7 +105,7 @@ class ViderLab_Cloudbeds_Form_Public {
 	 *
 	 * @since    1.0.0
 	 */
-	public function show_coudbeds_form( $atts = [], $content = null ) {
+	public function show_cloudbeds_form( $atts = [], $content = null ) {
 
         // normalize attribute keys, lowercase
         $atts = array_change_key_case( (array) $atts, CASE_LOWER );

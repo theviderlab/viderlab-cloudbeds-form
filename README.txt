@@ -12,7 +12,7 @@ Creates a simple form to begin a search on CloudBeds
 
 Creates a simple form to begin a search on CloudBeds.
 
-To display the form use the shortcode [coudbeds_form]
+To display the form use the shortcode [cloudbeds_form]
 
 == Changelog ==
 

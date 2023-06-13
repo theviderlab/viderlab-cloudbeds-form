@@ -174,7 +174,7 @@ class ViderLab_Cloudbeds_Form {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
         // Shorcodes
-		$this->loader->add_shortcode( 'coudbeds_form', $plugin_public, 'show_coudbeds_form');
+		$this->loader->add_shortcode( 'cloudbeds_form', $plugin_public, 'show_cloudbeds_form');
 
 	}
 
